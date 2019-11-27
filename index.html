@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tunequiz - Fest i Danmark</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+  </head>
+    
+  <body onload="ja()">
+    <div id="p5_loading" class="loadingclass" >loader sange...</div>
+      
+    <div class="quiz" style="width:100%;">
+
+    
+    <div class="choose" id="choose" style="float:left;">
+        <input type="radio" id="n" value="n" name="a"/>Nem(3s)
+        <input type="radio" id="m" value="m" name="a" checked="checked"/>Medium(1s)
+        <input type="radio" id="s" value="s" name="a"/>Svær(0.5s) 
+        <button onclick="buttons()" style="margin: 2px">Vælg!</button>
+    </div>
+
+    <div style="clear: both;">
+    </div>
+          <div >
+            <button id="but" style="margin: 2px">Ny sang!</button>
+    </div>
+    <div disabled="disabled" class="choises" id="choises">
+        <table style="width:100%">
+            <tr id="box">
+                <th id="1"><button class="xbut">BDK - KESI, Gilli</button></th>
+                <th><button class="xbut">London Town - Branco, Gilli</button></th> 
+                <th><button class="xbut">Endnu - Stepz, Gilli, Benny Jamz, Branco</button></th>
+                <th><button class="xbut">Culo - Gilli, Branco</button></th>
+                <th><button class="xbut">Oui - Sivas, NODE, Gilli</button></th>
+                <th><button class="xbut">All In - Branco, Gilli</button></th>
+            </tr>
+            <tr id="box">
+                <th><button class="xbut">Orale - Gilli</button></th>
+                <th><button class="xbut">d.a.u.d.a - Sivas, Gilli</button></th> 
+                <th><button class="xbut">Rally	- Sivas, Gilli</button></th>
+                <th><button class="xbut">Aldrig For Sjov - ATYPISK, Branco, Gilli</button></th>
+                <th><button class="xbut">LIV$TIL - Molo (Benny Jamz, Gilli, MellemFingaMuzik)</button></th>
+                <th><button class="xbut">Bølgen - Molo (Benny Jamz, Gilli, MellemFingaMuzik)</button></th>
+            </tr>
+            <tr id="box">
+                <th><button class="xbut">Dedikeret - Molo (Benny Jamz, Gilli, MellemFingaMuzik)</button></th>
+                <th><button class="xbut">Skejsen - Molo (Benny Jamz, Gilli, MellemFingaMuzik)</button></th> 
+                <th><button class="xbut">Safari - Molo (Benny Jamz, Gilli, MellemFingaMuzik)</button></th>
+                <th><button class="xbut">Jailhouse - Carmon, Branco</button></th>
+                <th><button class="xbut">Vai Amor - Gilli</button></th>
+                <th><button class="xbut">Øjne på mig - ICEKIID, KESI </button></th>
+            </tr>
+            <tr id="box">
+                <th><button class="xbut">Dem - Omar</button></th>
+                <th><button class="xbut">En Sang - Gucci Mane, Emil Stabil</button></th> 
+                <th><button class="xbut">Rum bum bum - Navid</button></th>
+                <th><button class="xbut">Sydpå	- Bro</button></th>
+                <th><button class="xbut">Nede Mette - Blak</button></th>
+                <th><button class="xbut">Søvnløs (remix) - Kesi</button></th>
+              </tr>
+             <tr id="box">
+                <th><button class="xbut">Slem igen - Blak, Jimilian</button></th>
+                <th><button class="xbut">Bedre - KIDD, Don</button></th> 
+                <th><button class="xbut">Ik' lavet penge - KIDD</button></th>
+                <th><button class="xbut">Model - Gulddreng</button></th>
+                <th><button class="xbut">Unz Unz - Specktors </button></th>
+                <th><button class="xbut">Damer på lager - Jimilian</button></th>
+              </tr>
+             <tr id="box">
+                <th><button class="xbut">Langsom - Gilli</button></th>
+              </tr>
+        </table>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="p5.sound.js"></script>
+    
+</body>
+</html>
