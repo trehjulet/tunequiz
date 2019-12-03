@@ -19,26 +19,25 @@ function preload(){
    song13 = loadSound('sange/Fest_i_Danmark/iklavetpenge.mp3');
    song14 = loadSound('sange/Fest_i_Danmark/jailhouse.mp3');
    song15 = loadSound('sange/Fest_i_Danmark/langsom.mp3');
-   song16 = loadSound('sange/Fest_i_Danmark/livstil.mp3');
-   song17 = loadSound('sange/Fest_i_Danmark/londontown.mp3');
-   song18 = loadSound('sange/Fest_i_Danmark/model.mp3');
-   song19 = loadSound('sange/Fest_i_Danmark/nedemette.mp3');
-   song20 = loadSound('sange/Fest_i_Danmark/ojnepamig.mp3');
-   song21 = loadSound('sange/Fest_i_Danmark/orale.mp3');
-   song22 = loadSound('sange/Fest_i_Danmark/oui.mp3');
-   song23 = loadSound('sange/Fest_i_Danmark/rally.mp3');
-   song24 = loadSound('sange/Fest_i_Danmark/rumbumbum.mp3');
-   song25 = loadSound('sange/Fest_i_Danmark/safari.mp3');
-   song26 = loadSound('sange/Fest_i_Danmark/skejsen.mp3');    
-   song27 = loadSound('sange/Fest_i_Danmark/slemigen.mp3');
-   song28 = loadSound('sange/Fest_i_Danmark/sovnlos.mp3');
-   song29 = loadSound('sange/Fest_i_Danmark/sydpa.mp3');
-   song30 = loadSound('sange/Fest_i_Danmark/unzunz.mp3');
-   song31 = loadSound('sange/Fest_i_Danmark/vaiamor.mp3');
+   song16 = loadSound('sange/Fest_i_Danmark/londontown.mp3');
+   song17 = loadSound('sange/Fest_i_Danmark/model.mp3');
+   song18 = loadSound('sange/Fest_i_Danmark/nedemette.mp3');
+   song19 = loadSound('sange/Fest_i_Danmark/ojnepamig.mp3');
+   song20 = loadSound('sange/Fest_i_Danmark/orale.mp3');
+   song21 = loadSound('sange/Fest_i_Danmark/oui.mp3');
+   song22 = loadSound('sange/Fest_i_Danmark/rally.mp3');
+   song23 = loadSound('sange/Fest_i_Danmark/rumbumbum.mp3');
+   song24 = loadSound('sange/Fest_i_Danmark/safari.mp3');
+   song25 = loadSound('sange/Fest_i_Danmark/skejsen.mp3');    
+   song26 = loadSound('sange/Fest_i_Danmark/slemigen.mp3');
+   song27 = loadSound('sange/Fest_i_Danmark/sovnlos.mp3');
+   song28 = loadSound('sange/Fest_i_Danmark/sydpa.mp3');
+   song29 = loadSound('sange/Fest_i_Danmark/unzunz.mp3');
+   song30 = loadSound('sange/Fest_i_Danmark/vaiamor.mp3');
 }
 
 function setup() {
-    songs = [song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16, song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30, song31];
+    songs = [song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16, song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30];
 }
 function hide(){
   var ad = document.getElementById("choises");
@@ -81,9 +80,9 @@ function nysangknap() {
     songs[x].stop();
     }
       else{
-    x = Math.floor(Math.random() * 30);
+    x = Math.floor(Math.random() * 29);
     while (gamle.includes(x) == true){
-      x = Math.floor(Math.random() * 30);}
+      x = Math.floor(Math.random() * 29);}
     songs[x].play(0,1,1,20,y);
     gamle.push(x);} 
 }
