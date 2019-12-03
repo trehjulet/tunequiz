@@ -37,38 +37,38 @@ function preload(){
    song31 = loadSound('sange/Fest_i_Danmark/vaiamor.mp3');
 }
 
-
-
 function setup() {
-
     songs = [song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16, song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30, song31];
-    
-    document.getElementById("but").onclick = function() {
+    document.getElementById("choises").hidden == true;
+    document.getElementsByClassName("but").onclick = function() {
         nysangknap()  }
-
-}
-
-function ja() {
-  document.getElementsByClassName("xbut").disabled = true;   
 }
 
 function buttons(){
-    var boxe = document.getElementById("boxe");
+  var boxe = document.getElementsByClassName("boxe");
   var n = document.getElementById("n").checked;
   var m = document.getElementById("m").checked;
   var s = document.getElementById("s").checked;
     if (n == true){
-        y=3
-        boxe.remove()
+        y=3;
     }
-        else if (m == true){
-        y=1
-        boxe.remove()
+    else if (m == true){
+        y=1;
     }
-        else{
-        y=0.5
-        boxe.remove()
+    else{
+        y=0.5;
     }
+    for (var i = 0; i<boxe.length; i++) {
+      boxe[i].parentElement.removeChild(boxe[i]);
+    }
+    document.getElementById("choises").hidden == false;
+
+    var ab = document.getElementById("choises");
+    if (ab.style.display === "none") {
+      ab.style.display = "block";
+    } else {
+      ab.style.display = "none"
+    };
 }
 
 function nysangknap() {

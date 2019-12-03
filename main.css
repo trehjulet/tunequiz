@@ -14,15 +14,15 @@ body{
 }
 div, button{
 color:grey;}
-#box{
+.box{
     height:150%;
 }
-#xbut{
+.xbut{
     width: 100%;
-    height:100px;
+    height: 100px;
     margin: 0;
     border:none;
 }
-#xbut:hover{
+.xbut:hover{
     background-color: beige;
 }
