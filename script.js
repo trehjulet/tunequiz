@@ -2,7 +2,7 @@ var songs = []
 var gamle = []
 x=0
 y=1
-
+hvor=0
 function preload(){
    song1 = loadSound('sange/Fest_i_Danmark/aldrigforsjov.mp3');
    song2 = loadSound('sange/Fest_i_Danmark/allin.mp3');
@@ -83,6 +83,7 @@ function nysangknap() {
     x = Math.floor(Math.random() * 29);
     while (gamle.includes(x) == true){
       x = Math.floor(Math.random() * 29);}
-    songs[x].play(0,1,1,20,y);
+      hvor = Math.floor(Math.random()*50+20)
+    songs[x].play(0,1,1,hvor,y);
     gamle.push(x);} 
 }
