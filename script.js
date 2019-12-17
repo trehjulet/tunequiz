@@ -36,17 +36,12 @@ function preload(){
    song30 = loadSound('sange/Fest_i_Danmark/vaiamor.mp3');
 }
 
+window.onload  = function(){
+  document.getElementById("choises").style.display = "none";
+}
+
 function setup() {
     songs = [song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16, song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30];
-}
-function hide(){
-  var ad = document.getElementById("choises");
-  if (ad.style.display === "none") {
-   ad.style.display = "block";
-  }
-  else {
-    ad.style.display = "hide"
-  };
 }
 
 function buttons(){
@@ -66,13 +61,7 @@ function buttons(){
     for (var i = 0; i<boxe.length; i++) {
       boxe[i].parentElement.removeChild(boxe[i]);
     }
-
-    var ab = document.getElementById("choises");
-    if (ab.style.display === "none") {
-      ab.style.display = "block";
-    } else {
-      ab.style.display = "none"
-    };
+    document.getElementById("choises").style.display = "block";
 }
 
 function nysangknap() {
