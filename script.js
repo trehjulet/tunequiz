@@ -65,6 +65,96 @@ function buttons(){
 }
 
 function nysangknap() {
+  if (document.getElementById("b1").checked = true){
+    o = 0;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
+  else if (document.getElementById("b2").checked = true){
+    o = 1;
+  }
   if (songs[x].isPlaying()){
     songs[x].stop();
     }
@@ -73,6 +163,9 @@ function nysangknap() {
     while (gamle.includes(x) == true){
       x = Math.floor(Math.random() * 29);}
       hvor = Math.floor(Math.random()*50+20)
-    songs[x].play(0,1,1,hvor,y);
-    gamle.push(x);} 
+    gamle.push(x); 
+    songs[x].play(0,1,1,hvor,y);}
+    while (x == o){
+      continue
+    }
 }
