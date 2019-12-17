@@ -71,89 +71,89 @@ function nysangknap() {
   else if (document.getElementById("b2").checked = true){
     o = 1;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b3").checked = true){
+    o = 2;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b4").checked = true){
+    o = 3;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b5").checked = true){
+    o = 4;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b6").checked = true){
+    o = 5;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b7").checked = true){
+    o = 6;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b8").checked = true){
+    o = 7;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b9").checked = true){
+    o = 8;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b10").checked = true){
+    o = 9;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b11").checked = true){
+    o = 10;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b12").checked = true){
+    o = 11;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b13").checked = true){
+    o = 12;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b14").checked = true){
+    o = 13;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b15").checked = true){
+    o = 14;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b16").checked = true){
+    o = 15;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b17").checked = true){
+    o = 16;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b18").checked = true){
+    o = 17;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b19").checked = true){
+    o = 18;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b20").checked = true){
+    o = 19;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b21").checked = true){
+    o = 20;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b22").checked = true){
+    o = 21;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b23").checked = true){
+    o = 22;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b24").checked = true){
+    o = 23;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b25").checked = true){
+    o = 24;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b26").checked = true){
+    o = 25;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b27").checked = true){
+    o = 26;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b28").checked = true){
+    o = 27;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b29").checked = true){
+    o = 28;
   }
-  else if (document.getElementById("b2").checked = true){
-    o = 1;
+  else if (document.getElementById("b30").checked = true){
+    o = 29;
   }
   if (songs[x].isPlaying()){
     songs[x].stop();
