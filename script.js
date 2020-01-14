@@ -1,10 +1,10 @@
 var songs = []
 var gamle = []
 x=0
-y=60
+y=1
 o=31
 p=7
-hvor=0
+hvor=60
 function preload(){
   song1 = loadSound('sange/Fest_i_Danmark/bdk.mp3');
   song2 = loadSound('sange/Fest_i_Danmark/londontown.mp3');
