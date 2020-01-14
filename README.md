@@ -5,7 +5,7 @@ Sangene i quizzen er af kategorien "dansk rap".
 
 ## Hvordan man spiller
 
-### Det grafiske interface består af følgende:
+### Det grafiske brugerflade består af følgende:
 - Menu til valg af sværhedsgrad
 - "Afspil sang! / Tjek svar" -knap
 - 30 knapper, der hver repræsenterer én af sangene i quizzen
