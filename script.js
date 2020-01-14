@@ -169,6 +169,7 @@ function nysangknap() {
       document.getElementById(khara).style.display = "none";
       while (gamle.includes(x) == true){
       x = Math.floor(Math.random() * 29);
+      y = Math.floor(Math.random() * 80);
     }
       gamle.push(x);
     }
