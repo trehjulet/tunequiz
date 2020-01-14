@@ -1,7 +1,7 @@
 var songs = []
 var gamle = []
 x=0
-y=1
+y=0
 o=31
 p=7
 hvor=60
@@ -169,7 +169,7 @@ function nysangknap() {
       document.getElementById(khara).style.display = "none";
       while (gamle.includes(x) == true){
       x = Math.floor(Math.random() * 29);
-      y = Math.floor(Math.random() * 80);
+      hvor = Math.floor(Math.random() * 80);
     }
       gamle.push(x);
     }
