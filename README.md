@@ -58,6 +58,8 @@ Hvis du svarede forkert, er der ingen knapper der forsvinder. I stedet hører du
 -	Langsom	        - Gilli
 
 
+## Udarbejdet af:
 
-
-#### Udarbejdet af: Kubilay, Hussein og Grzegorz 2.r
+* **Kubilay Cartilli 2.r**  - [Kubi-02](https://github.com/Kubi-02)
+* **Hussein Faraj 2.r**  - [Hussi1309](https://github.com/Hussi1309)
+* **Grzegorz Mroz 2.r**  - [griiig](https://github.com/griiig)

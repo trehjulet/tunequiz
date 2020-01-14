@@ -3,8 +3,8 @@ var gamle = []
 x=0
 y=0
 o=31
-p=7
 hvor=60
+
 function preload(){
   song1 = loadSound('sange/Fest_i_Danmark/bdk.mp3');
   song2 = loadSound('sange/Fest_i_Danmark/londontown.mp3');
@@ -159,10 +159,8 @@ function b30(){
 x = Math.floor(Math.random() * 29);
 gamle.push(x);
 function nysangknap() {
-
     if (o != x){
       songs[x].play(0,1,1,hvor,y);
-
 }
     else{
       khara = "b" + (x+1);
