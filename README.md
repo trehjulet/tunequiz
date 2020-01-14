@@ -3,7 +3,7 @@
 "tunequiz" er navnet på vores projekt. Projektet er et spil, der handler om at gætte bestemte sange.
 Sangene i quizzen er af kategorien "dansk rap".
 
-## hvordan man spiller
+## Hvordan man spiller
 
 ### Det grafiske interface består af følgende:
 - Menu til valg af sværhedsgrad
