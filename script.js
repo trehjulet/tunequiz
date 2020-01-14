@@ -1,7 +1,7 @@
 var songs = []
 var gamle = []
 x=0
-y=1
+y=60
 o=31
 p=7
 hvor=0
